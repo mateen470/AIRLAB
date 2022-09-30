@@ -1,0 +1,42 @@
+.header_root {
+  background: #242323;
+  height: 10rem;
+}
+.header_root > div {
+  display: flex;
+  justify-content: center;
+}
+.imge_header {
+  display: inline-block;
+  padding-top: 0.5rem;
+  position: absolute;
+  margin-right: 45rem;
+}
+.imge_header img {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.navigation_header ul {
+  display: flex;
+  margin-top: -0.1rem;
+  padding-top: 0.8rem;
+}
+.navigation_header ul li {
+  list-style: none;
+  padding-bottom: 0.3rem;
+}
+.navigation_header ul li a {
+  font-weight: bolder;
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+.navigation_header ul li:hover {
+  border-bottom: 2px solid #4f72e3;
+}
+.navigation_header ul li a:hover {
+  transition: 0.15s ease-in;
+  color: #4f72e3;
+  cursor: pointer;
+}
