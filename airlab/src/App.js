@@ -5,6 +5,7 @@ import CardsSection from "./Components/CardsSection/CardsSection";
 import AchievementSection from "./Components/AchievementsSection/AchievementsSection";
 import HowItWorkSection from "./Components/HowItWorkSection/HowItWorkSection";
 import LastSection from "./Components/LastSection/Last";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AchievementSection />
       <HowItWorkSection />
       <LastSection />
+      <Footer />
     </>
   );
 }

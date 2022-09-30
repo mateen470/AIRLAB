@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 .howItWorks_root_div {
-  height: 28rem;
+  height: 30rem;
   display: flex;
 }
 .first_half_howItWork {
   height: 28rem;
   width: 50%;
   background: #242323;
+  padding-bottom: 2rem;
 }
 .second_half_howItWork {
   width: 50%;
-  height: 28rem;
+  height: 30rem;
   background-color: #aeabfa;
 }
 .textPart_firtsHalf {

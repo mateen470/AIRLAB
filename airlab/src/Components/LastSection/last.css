@@ -112,8 +112,6 @@
 .contentPart_secondHalf {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .contentPart_secondHalf span {
   font-size: 0.7rem;
