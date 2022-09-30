@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
 .hero_root {
   background: url("./assets/home.png");
   width: 100%;
@@ -14,11 +15,12 @@
 }
 .hero_content h1 {
   color: #dbc9f2;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 }
 .hero_content p {
+  font-family: "Syne", sans-serif;
   color: #d2c0e8;
-  font-size: 1.38rem;
+  font-size: 1.3rem;
 }
 .hero_content button {
   display: inline-block;
@@ -26,7 +28,7 @@
   background: black;
   border: none;
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-family: "Poppins", sans-serif;
   padding: 0.3rem 1.2rem;
   border-radius: 0.6rem;
