@@ -64,11 +64,32 @@ const Last = () => {
         </div>
       </div>
       <div className="partnersPart">
-        <h2>Our Partners</h2>
+        <h2>
+          Our <br />
+          Partners
+        </h2>
         <img src={partner1} alt="#" />
         <img src={partner2} alt="#" />
-        <img src={partner3} alt="#" />
         <img src={partner4} alt="#" />
+        <img src={partner3} alt="#" />
+      </div>
+      <div className="videoPart">
+        <div className="videoPart_firstHalf">
+          <div className="content_firstHalf">
+            <p>The power of the thinking </p>
+            <p>together</p>
+          </div>
+        </div>
+        <div className="videoPart_secondHalf">
+          <div className="contentPart_secondHalf">
+            <span>
+              I’m a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font.
+            </span>
+          </div>
+          <button className="secondHalf_btn">Get Started</button>
+        </div>
       </div>
     </div>
   );
