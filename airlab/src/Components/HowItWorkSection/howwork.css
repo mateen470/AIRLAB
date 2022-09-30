@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+.howItWorks_root_div {
+  height: 28rem;
+  display: flex;
+}
+.first_half_howItWork {
+  height: 28rem;
+  width: 50%;
+  background: #242323;
+}
+.second_half_howItWork {
+  width: 50%;
+  height: 28rem;
+  background-color: #aeabfa;
+}
+.textPart_firtsHalf {
+  display: inline-block;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  color: #dbc9f2;
+  padding-right: 1rem;
+}
+.textPart_firtsHalf h1 {
+  font-family: "Syne", sans-serif;
+}
+.textPart_firtsHalf p {
+  font-family: "Questrial", sans-serif;
+  font-size: 0.8rem;
+}
+.imagePart_firstHalf {
+  display: flex;
+}
+.imgePart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.imgePart img {
+  width: 3rem;
+  height: 4.5rem;
+}
+.textPart_firstHalf {
+  display: inline-block;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+.textPart {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+.textPart span {
+  font-weight: bold;
+  color: white;
+}
+.second_half_box_main {
+  display: flex;
+  flex-direction: column;
+}
+.box_secondHalf {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  height: 10.5rem;
+  width: 15rem;
+  background: #fffdd099;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.194);
+}
+.secondHalf_box1 {
+  margin-top: 3.5rem;
+  margin-left: 7rem;
+}
+.secondHalf_box2 {
+  margin-left: 17rem;
+  width: 16.5rem;
+}

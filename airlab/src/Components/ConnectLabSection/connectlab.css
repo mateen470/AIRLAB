@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.connectYourLab_root {
+  background: url("./assets/spikespic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+  margin-top: 4rem;
+}
+.connectLab_h1 {
+  text-align: center;
+  color: #dbc9f2;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}

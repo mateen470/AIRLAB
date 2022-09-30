@@ -1,0 +1,66 @@
+.lastSection_root {
+  background: #e5ebfa;
+  height: 150vh;
+}
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeading h1 {
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.mainParaghraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0rem 21rem;
+}
+.mainParaghraph p {
+  color: #7a7a7a;
+  font-size: 0.7rem;
+}
+.imageCardsPart {
+  background: #afacfb;
+  height: 25rem;
+  margin: 0rem 1.5rem;
+  margin-top: 2.5rem;
+}
+.imageCardsPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.imageCard_main img {
+  height: 15rem;
+  width: 12rem;
+}
+.contentPart_imageCard {
+  position: absolute;
+  height: 4.5rem;
+  width: 12rem;
+  background: #f2f3f5;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.194);
+  margin-left: 1rem;
+  margin-top: -2rem;
+}
+.contentPart_imageCard h5 {
+  font-family: "Syne", sans-serif;
+  margin: 0.5rem 1rem;
+}
+.contentPart_imageCard p {
+  color: #7a7a7a;
+  font-size: 0.65rem;
+  margin: 0rem 1rem;
+}
+.partnersPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
