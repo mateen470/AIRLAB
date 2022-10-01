@@ -137,6 +137,11 @@
   color: black;
   transition: 0.2s ease-in;
 }
+@media only screen and (min-height: 1000px) {
+  .lastSection_root {
+    min-height: 100vh;
+  }
+}
 @media only screen and (min-width: 1300px) {
   .content_firstHalf {
     margin-top: 16vw;
@@ -182,5 +187,10 @@
   }
   .secondHalf_btn {
     margin-left: 35%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .partnersPart {
+    gap: 2.5vw;
   }
 }

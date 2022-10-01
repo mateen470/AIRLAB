@@ -89,3 +89,11 @@
   width: 1.5rem;
   height: 1.5rem;
 }
+@media only screen and (max-width: 1000px) {
+  .footer_firstHalf {
+    margin-left: -4rem;
+  }
+  .footer_firstHalf_ListPart ul {
+    margin-left: -1.5rem;
+  }
+}
