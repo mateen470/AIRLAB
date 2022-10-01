@@ -374,3 +374,90 @@
     cursor: pointer;
   }
 }
+@media only screen and (max-width: 500px) {
+  .mainParaghraph {
+    text-align: center;
+  }
+
+  .imageCardsPart {
+    background: #afacfb;
+    height: auto;
+    margin: 0rem 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .imageCard_main img {
+    height: 15rem;
+    width: 15rem;
+  }
+  .contentPart_imageCard {
+    height: 4.5rem;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-top: -2rem;
+  }
+
+  .partnersPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    background: #afacfb;
+    margin: 0rem 15vw;
+    padding-bottom: 2rem;
+    padding-top: 0.7rem;
+  }
+  .partnersPart h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 1.7rem;
+    margin-left: -5rem;
+  }
+  .partnersPart img {
+    width: 6rem;
+    height: 2.5rem;
+    margin: 1rem;
+  }
+  .mainHeading h1 {
+    font-family: "Syne", sans-serif;
+    font-weight: bolder;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .videoPart_firstHalf {
+    height: 25rem;
+    width: 100%;
+    background: url("./assets/rotate.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .videoPart_firstHalf p {
+    line-height: 1.7rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .firtsPara {
+    margin-top: 0rem;
+  }
+
+  .videoPart_secondHalf {
+    height: 25rem;
+    width: 100%;
+    background: #afacfb;
+  }
+  .contentPart_secondHalf {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentPart_secondHalf span {
+    font-size: 0.9rem;
+    padding: 0.2rem 2rem;
+    margin-top: 4rem;
+  }
+  .secondHalf_btn {
+    margin-left: 28%;
+
+  }
+}

@@ -22,3 +22,13 @@
     padding-bottom: 2rem;
   }
 }
+@media only screen and (max-width: 500px) {
+  .connectYourLab_root {
+    height: 15rem;
+  }
+  .connectLab_h1 {
+    margin-bottom: 0rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+}

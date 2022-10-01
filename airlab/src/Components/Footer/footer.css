@@ -110,6 +110,7 @@
     margin-left: -1rem;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .footer_root {
     height: auto;
@@ -213,5 +214,19 @@
     width: 2rem;
     height: 2rem;
     margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer_firstHalf_ListPart li a {
+    padding-right: 200px;
+  }
+  #investInAirLabText {
+    padding-right: 105px;
+  }
+  #litePaperText {
+    padding-right: 170px;
+  }
+  #dappText {
+    padding-right: 200px;
   }
 }
