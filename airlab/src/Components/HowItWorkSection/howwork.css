@@ -60,19 +60,56 @@
   flex-direction: column;
 }
 .box_secondHalf {
-  margin-left: 10rem;
-  margin-top: 2rem;
-  height: 10.5rem;
-  width: 15rem;
+  margin-top: 2vw;
+  height: 14vw;
+  width: 18.5vw;
   background: #fffdd099;
   border-radius: 0.5rem;
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.194);
 }
 .secondHalf_box1 {
-  margin-top: 3.5rem;
-  margin-left: 7rem;
+  margin-top: 2.5vw;
+  margin-left: 8vw;
 }
 .secondHalf_box2 {
-  margin-left: 17rem;
-  width: 16.5rem;
+  margin-left: 19vw;
+  width: 21.5vw;
+}
+@media only screen and (min-width: 1400px) {
+  .box_secondHalf {
+    margin-top: 1vw;
+  }
+  .secondHalf_box1 {
+    margin-top: 1.5vw;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .secondHalf_box1 {
+    height: 12vw;
+    width: 16.5vw;
+  }
+  .secondHalf_box2 {
+    height: 12vw;
+    width: 19.5vw;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .secondHalf_box1 {
+    height: 10vw;
+    width: 14.5vw;
+  }
+  .secondHalf_box2 {
+    height: 10vw;
+    width: 17.5vw;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .secondHalf_box1 {
+    height: 12rem;
+    width: 18.5rem;
+  }
+  .secondHalf_box2 {
+    height: 12rem;
+    width: 20.5rem;
+  }
 }
