@@ -194,3 +194,183 @@
     gap: 2.5vw;
   }
 }
+@media only screen and (max-width: 950px) {
+  .mainParaghraph {
+    padding: 0rem 11rem;
+  }
+  .imageCardsPart {
+    height: 25rem;
+    margin: 0rem 0.5rem;
+    margin-top: 2.5rem;
+  }
+  .imageCardsPart {
+    gap: 1.5rem;
+  }
+  .imageCard_main img {
+    height: 15rem;
+    width: 10rem;
+  }
+  .contentPart_imageCard {
+    height: 4.5rem;
+    width: 10rem;
+    margin-left: 1rem;
+    margin-top: -2rem;
+  }
+  .contentPart_imageCard h5 {
+    margin: 0.5rem 1rem;
+  }
+  .contentPart_imageCard p {
+    margin: 0rem 1rem;
+  }
+  .content_firstHalf {
+    margin-top: 80%;
+  }
+  .videoPart_firstHalf p {
+    font-size: 1rem;
+  }
+  .secondHalf_btn {
+    margin-left: 28%;
+  }
+  .partnersPart img {
+    width: 4.5rem;
+    height: 2rem;
+  }
+  .mainHeading h1 {
+    font-family: "Syne", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .mainParaghraph p {
+    color: #7a7a7a;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .mainParaghraph {
+    padding: 0rem 2rem;
+  }
+  .imageCardsPart {
+    height: 25rem;
+    margin: 0rem 0.5rem;
+    margin-top: 2.5rem;
+  }
+  .imageCardsPart {
+    background: #afacfb;
+    height: auto;
+    margin: 0rem 1.5rem;
+    margin-top: 2.5rem;
+  }
+  .imageCardsPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  .imageCardsPart {
+    gap: 4rem;
+  }
+  .imageCard_main img {
+    height: 15rem;
+    width: 25rem;
+  }
+  .contentPart_imageCard {
+    height: 4.5rem;
+    width: 25rem;
+    margin-left: 1rem;
+    margin-top: -2rem;
+  }
+  .contentPart_imageCard h5 {
+    margin: 0.5rem 1rem;
+    font-size: larger;
+  }
+  .contentPart_imageCard p {
+    margin: 0rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .partnersPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    background: #afacfb;
+    margin: 0rem 15vw;
+    padding-bottom: 2rem;
+    padding-top: 0.7rem;
+  }
+  .partnersPart h2 {
+    font-family: "Syne", sans-serif;
+    font-size: 1.7rem;
+    margin-left: -10rem;
+  }
+  .partnersPart img {
+    width: 6rem;
+    height: 2.5rem;
+    margin: 1rem;
+  }
+  .mainHeading h1 {
+    font-family: "Syne", sans-serif;
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+
+  .mainParaghraph p {
+    color: #7a7a7a;
+    font-size: 1rem;
+  }
+  .videoPart {
+    margin: 0rem 15vw;
+    margin-top: 1rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .videoPart_firstHalf {
+    height: 30rem;
+    width: 100%;
+    background: url("./assets/rotate.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .videoPart_firstHalf p {
+    line-height: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .firtsPara {
+    margin-top: -7rem;
+  }
+
+  .videoPart_secondHalf {
+    height: 30rem;
+    width: 100%;
+    background: #afacfb;
+  }
+  .contentPart_secondHalf {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentPart_secondHalf span {
+    font-size: 0.9rem;
+    padding: 0.2rem 2rem;
+    margin-top: 10rem;
+  }
+  .secondHalf_btn {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 38%;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 0.65rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.35rem 1.2rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+}

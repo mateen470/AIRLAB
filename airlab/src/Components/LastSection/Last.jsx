@@ -76,7 +76,7 @@ const Last = () => {
       <div className="videoPart">
         <div className="videoPart_firstHalf">
           <div className="content_firstHalf">
-            <p>The power of the thinking </p>
+            <p className="firtsPara">The power of the thinking </p>
             <p>together</p>
           </div>
         </div>

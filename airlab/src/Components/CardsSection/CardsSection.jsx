@@ -4,17 +4,24 @@ import cloud from "./assets/cloud.png";
 import fourblock from "./assets/fourblocks.png";
 import runningblock from "./assets/runningblock.png";
 import user from "./assets/user.png";
+import { useParallax } from "react-scroll-parallax";
 const CardsSection = () => {
+  // const { ref } = useParallax({
+  //   easing: "easeOutQuad",
+  //   translateX: [-4.5, 5],
+  // });
   return (
     <div className="cards_root">
       <div className="imageDiv_cardsSection">
-        <h1>What is AirLab.One</h1>
-        <p>Interoperable peer to peer digital twin supported ecosystem</p>
-        <p>for laboratories.</p>
-        <p style={{ paddingTop: "1rem" }}>
-          Our mission is to enhance collaborative and decentralised
-        </p>
-        <p>lab-asset utilisation, resource management and training.</p>
+        <div>
+          <h1>What is AirLab.One</h1>
+          <p>Interoperable peer to peer digital twin supported ecosystem</p>
+          <p>for laboratories.</p>
+          <p style={{ paddingTop: "1rem" }}>
+            Our mission is to enhance collaborative and decentralised
+          </p>
+          <p>lab-asset utilisation, resource management and training.</p>
+        </div>
       </div>
       <div className="cards_main_carsSection">
         <div className=" box_part1">
@@ -22,25 +29,26 @@ const CardsSection = () => {
             <img src={cloud} alt="#" className="box_img" />
             <span className="box_h1">Decentralised</span>
             <div className="box_span">
-              <span style={{ marginLeft: "0.1rem" }}>
-                Collaborate remotely and <br />
+              <span  className="text1">
+                Collaborate remotely and <br className="br_cards" />
               </span>
-              <span style={{ marginLeft: "0.65rem" }}>
-                in real-time with users <br />
+              <span className="text2">
+                in real-time with users <br className="br_cards" />
               </span>
-              <span style={{ marginLeft: "1.2rem" }}>anywhere, anytime.</span>
+              <span  className="text3">anywhere, anytime.</span>
             </div>
+          
           </div>
           <div className="box2 box">
             <img src={fourblock} alt="#" className="box_img" />
             <span className="box_h1">Digital Twins</span>
             <div className="box_span">
               <span style={{ marginLeft: "-0.65rem" }}>
-                Upskill your staff and students <br />
+                Upskill your staff and students <br className="br_cards" />
               </span>
               <span style={{ marginLeft: "0.3rem" }}>
                 {" "}
-                remotely and quicker on <br />
+                remotely and quicker on <br className="br_cards" />
               </span>
               <span style={{ marginLeft: "1.3rem" }}>digital instruments</span>
             </div>
@@ -51,14 +59,14 @@ const CardsSection = () => {
             <img src={runningblock} alt="#" className="box_img" />
             <span className="box_h1">Data Acceleration</span>
             <div className="box_span">
-              <span style={{ marginLeft: "-0.65rem" }}>
-                Share your devices and data <br />
+              <span >
+                Share your devices and data <br className="br_cards" />
               </span>
               <span style={{ marginLeft: "0.3rem" }}>
                 {" "}
-                with full ownership and .<br />
+                with full ownership and <br className="br_cards" />
               </span>
-              <span style={{ marginLeft: "2.2rem" }}>transparency</span>
+              <span className="transparency_text">transparency</span>
             </div>
           </div>
           <div className="box4 box">

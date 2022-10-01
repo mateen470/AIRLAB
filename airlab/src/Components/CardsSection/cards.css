@@ -4,6 +4,15 @@
   height: 32.5rem;
   display: flex;
 }
+.text1 {
+  margin-left: 0.1rem;
+}
+.text2 {
+  margin-left: 0.65rem;
+}
+.text3 {
+  margin-left: 1.2rem;
+}
 .imageDiv_cardsSection {
   background: url("./assets/cardsmain.png");
   height: 32.5rem;
@@ -33,6 +42,9 @@
 .cards_main_carsSection {
   display: flex;
   margin-left: 3.5vw;
+}
+.transparency_text {
+  margin-left: 2.2rem;
 }
 .box {
   height: 14rem;
@@ -76,5 +88,180 @@
 @media only screen and (min-width: 1500px) {
   .cards_main_carsSection {
     margin-left: 10.5vw;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .cards_root {
+    height: 39.5rem;
+  }
+  .imageDiv_cardsSection {
+    height: 39.5rem;
+    padding-left: 1.7rem;
+  }
+  .imageDiv_cardsSection h1 {
+    margin-left: 2.5rem;
+    margin-top: -5rem;
+    font-size: 2rem;
+  }
+  .imageDiv_cardsSection p {
+    line-height: 1rem;
+    font-size: 0.9rem;
+  }
+  .box {
+    height: 17rem;
+    width: 9rem;
+  }
+  .cards_main_carsSection {
+    margin-left: 2vw;
+  }
+  .box_span {
+    margin-top: 1rem;
+    color: #7a7a7a;
+    padding: 0rem 0.5rem;
+    font-size: 0.7rem;
+  }
+  .br_cards {
+    display: none;
+  }
+  .transparency_text {
+    margin-left: 0rem;
+  }
+  .text1,
+  .text3,
+  .text2 {
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .cards_root {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .imageDiv_cardsSection {
+    height: 20rem;
+    width: auto;
+  }
+  .imageDiv_cardsSection h1 {
+    margin-top: 0rem;
+    font-family: "Syne", sans-serif;
+    color: #dbc9f2;
+    font-weight: 500;
+    font-size: 1.9rem;
+    margin-right: 5rem;
+  }
+  .imageDiv_cardsSection p {
+    line-height: 0.5;
+    font-size: 0.8rem;
+    color: #7a7a7a;
+  }
+  .cards_main_carsSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .box {
+    height: 17rem;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.194);
+    /* margin: 2rem; */
+  }
+  .box_part1 {
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+  }
+  .box2 {
+    opacity: 0.9;
+  }
+  .box_part2 {
+    margin-left: 2.5rem;
+    opacity: 0.9;
+  }
+  .box_img {
+    display: inline-block;
+    margin-left: 45%;
+    margin-top: 3rem;
+    height: 2rem;
+    width: 2.8rem;
+  }
+  .box_h1 {
+    display: block;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .box_span {
+    margin-top: 1rem;
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .cards_root {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .imageDiv_cardsSection h1 {
+    margin-top: 0rem;
+    font-family: "Syne", sans-serif;
+    color: #dbc9f2;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-right: 4rem;
+  }
+  .imageDiv_cardsSection p {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    color: #7a7a7a;
+    padding: 0 2rem;
+  }
+  .cards_main_carsSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .box {
+    height: 17rem;
+    width: 80%;
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.194);
+    /* margin: 2rem; */
+  }
+  .box_part1 {
+    margin-top: 2.5rem;
+    margin-left: 0rem;
+  }
+  .box2 {
+    opacity: 0.9;
+  }
+  .box_part2 {
+    margin-left: 0rem;
+    opacity: 0.9;
+  }
+  .box_img {
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 3rem;
+    height: 2rem;
+    width: 2.8rem;
+  }
+  .box_h1 {
+    display: block;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .box_span {
+    margin-top: 1rem;
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 0.9rem;
   }
 }

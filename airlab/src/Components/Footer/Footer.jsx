@@ -23,15 +23,15 @@ const Footer = () => {
               <NavLink to="/">About</NavLink>
             </li>
             <li>
-              <NavLink to="/" style={{ paddingRight: "150px" }}>
+              <NavLink to="/"  id="investInAirLabText">
                 Invest in AirLab.One
               </NavLink>
             </li>
             <li>
-              <NavLink to="/">Litepaper</NavLink>
+              <NavLink to="/" id="litePaperText">Litepaper</NavLink>
             </li>
             <li>
-              <NavLink to="/">dApp</NavLink>
+              <NavLink to="/" id="dappText">dApp</NavLink>
             </li>
             <li>
               <NavLink to="/">News</NavLink>

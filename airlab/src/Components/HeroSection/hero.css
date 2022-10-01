@@ -39,3 +39,92 @@
   color: black;
   transition: 0.2s ease-in;
 }
+@media only screen and (max-width: 950px) {
+  .hero_content h1 {
+    color: #dbc9f2;
+    font-size: 3rem;
+  }
+  .hero_content p {
+    font-family: "Syne", sans-serif;
+    color: #d2c0e8;
+    font-size: 1.6rem;
+  }
+  .hero_content button {
+    display: inline-block;
+    margin-top: 2.6rem;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.4rem 1.5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+  .hero_content {
+    margin-top: -1.7rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .hero_content h1 {
+    color: #dbc9f2;
+    font-size: 2.5rem;
+  }
+  .hero_content p {
+    font-family: "Syne", sans-serif;
+    color: #d2c0e8;
+    font-size: 1.6rem;
+  }
+  .hero_content button {
+    display: inline-block;
+    margin-top: 2.6rem;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.4rem 1.5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+  .hero_content {
+    margin-top: -1.7rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .hero_root {
+    height: auto;
+  }
+  .hero_content h1 {
+    color: #dbc9f2;
+    font-size: 2.5rem;
+  }
+  .hero_content p {
+    font-family: "Syne", sans-serif;
+    color: #d2c0e8;
+    font-size: 1.6rem;
+  }
+  .hero_content button {
+    display: inline-block;
+    margin-top: 2.6rem;
+    background: black;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.4rem 1.5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    margin-bottom: 60vw;
+  }
+  .hero_content {
+    margin-top: -1.7rem;
+    margin-left: 0.5rem;
+    padding-top: 1rem;
+  }
+}
