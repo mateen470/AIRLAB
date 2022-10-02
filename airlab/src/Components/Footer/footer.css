@@ -30,7 +30,7 @@
 .footer_firstHalf_imagePart span {
   color: white;
   font-family: "Syne", sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
 }
 .footer_firstHalf span a:hover {
   color: blue;
@@ -52,7 +52,7 @@
   padding-bottom: 0.5rem;
   text-decoration: none;
   color: white;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
 }
 .footer_firstHalf_ListPart ul li a:hover {
   border-bottom: 2px solid #4f72e3;
@@ -65,7 +65,7 @@
   background: black;
   border: none;
   color: white;
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
   padding: 0.35rem 1.2rem;
   border-radius: 0.6rem;
@@ -204,7 +204,7 @@
   }
   .footer_secondHalf span {
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     margin-bottom: 0.5rem;
   }
   .social_media {
