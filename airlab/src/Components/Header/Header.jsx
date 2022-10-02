@@ -45,7 +45,6 @@ const Header = () => {
           className="navigation_header_burger"
           style={{
             display: burgerMenuOpen ? "block" : "none",
-            transition: "0.5s easeIn",
           }}
         >
           <ul>

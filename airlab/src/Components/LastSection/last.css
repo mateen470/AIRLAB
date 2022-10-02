@@ -43,7 +43,7 @@
 }
 .contentPart_imageCard {
   position: absolute;
-  height: 4.5rem;
+  height: auto;
   width: 12rem;
   background: #f2f3f5;
   border-radius: 0.5rem;
@@ -59,6 +59,7 @@
   color: #7a7a7a;
   font-size: 0.65rem;
   margin: 0rem 1rem;
+  margin-bottom: 0.8rem;
 }
 .partnersPart {
   display: flex;
@@ -93,6 +94,7 @@
   background-size: cover;
 }
 .content_firstHalf {
+  text-align: center;
   margin-top: 60%;
 }
 .videoPart_firstHalf p {
@@ -180,7 +182,10 @@
 }
 @media only screen and (max-width: 1201px) {
   .content_firstHalf {
-    margin-top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .videoPart_firstHalf p {
     font-size: 1rem;
@@ -439,7 +444,8 @@
     font-size: 1.5rem;
   }
   .firtsPara {
-    margin-top: 0rem;
+    margin-top: -25%;
+    margin-bottom: -1rem;
   }
 
   .videoPart_secondHalf {
@@ -458,6 +464,5 @@
   }
   .secondHalf_btn {
     margin-left: 28%;
-
   }
 }
