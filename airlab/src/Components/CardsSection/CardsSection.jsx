@@ -15,12 +15,14 @@ const CardsSection = () => {
       <div className="imageDiv_cardsSection">
         <div>
           <h1>What is AirLab.One</h1>
-          <p>Interoperable peer to peer digital twin supported ecosystem</p>
-          <p>for laboratories.</p>
-          <p style={{ paddingTop: "1rem" }}>
-            Our mission is to enhance collaborative and decentralised
+          <p>
+            Interoperable peer to peer digital twin supported ecosystemfor
+            laboratories.
           </p>
-          <p>lab-asset utilisation, resource management and training.</p>
+          <p style={{ paddingTop: "1rem" }}>
+            Our mission is to enhance collaborative and decentralised lab-asset
+            utilisation, resource management and training.
+          </p>
         </div>
       </div>
       <div className="cards_main_carsSection">
@@ -29,28 +31,20 @@ const CardsSection = () => {
             <img src={cloud} alt="#" className="box_img" />
             <span className="box_h1">Decentralised</span>
             <div className="box_span">
-              <span  className="text1">
-                Collaborate remotely and <br className="br_cards" />
+              <span>
+                Collaborate remotely and in real-time with users anywhere,
+                anytime.
               </span>
-              <span className="text2">
-                in real-time with users <br className="br_cards" />
-              </span>
-              <span  className="text3">anywhere, anytime.</span>
             </div>
-          
           </div>
           <div className="box2 box">
             <img src={fourblock} alt="#" className="box_img" />
             <span className="box_h1">Digital Twins</span>
             <div className="box_span">
-              <span style={{ marginLeft: "-0.65rem" }}>
-                Upskill your staff and students <br className="br_cards" />
+              <span>
+                Upskill your staff and students remotely and quicker on digital
+                instruments
               </span>
-              <span style={{ marginLeft: "0.3rem" }}>
-                {" "}
-                remotely and quicker on <br className="br_cards" />
-              </span>
-              <span style={{ marginLeft: "1.3rem" }}>digital instruments</span>
             </div>
           </div>
         </div>
@@ -59,14 +53,9 @@ const CardsSection = () => {
             <img src={runningblock} alt="#" className="box_img" />
             <span className="box_h1">Data Acceleration</span>
             <div className="box_span">
-              <span >
-                Share your devices and data <br className="br_cards" />
+              <span>
+                Share your devices and data with full ownership andtransparency
               </span>
-              <span style={{ marginLeft: "0.3rem" }}>
-                {" "}
-                with full ownership and <br className="br_cards" />
-              </span>
-              <span className="transparency_text">transparency</span>
             </div>
           </div>
           <div className="box4 box">

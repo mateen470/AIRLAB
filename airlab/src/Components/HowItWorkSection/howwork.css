@@ -26,7 +26,7 @@
 }
 .textPart_firtsHalf p {
   font-family: "Questrial", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .imagePart_firstHalf {
   display: flex;
@@ -152,7 +152,7 @@
   }
   .textPart_firtsHalf p {
     font-family: "Questrial", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .imagePart_firstHalf {
     display: flex;
@@ -197,7 +197,7 @@
   }
   .textPart_firtsHalf p {
     font-family: "Questrial", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .imagePart_firstHalf {
     display: flex;

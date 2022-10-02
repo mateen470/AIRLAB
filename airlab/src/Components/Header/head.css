@@ -37,7 +37,7 @@
 }
 .navigation_header ul li a {
   font-weight: bolder;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   text-decoration: none;
   color: white;
   padding: 1rem;
@@ -110,7 +110,7 @@
     padding: 0.5rem 400px 0.5rem 0.5rem;
     text-decoration: none;
     color: black;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   .navigation_header_burger ul li a:hover {
     color: white;
@@ -162,7 +162,7 @@
     width: 9rem;
     text-decoration: none;
     color: black;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   .navigation_header_burger ul li a:hover {
     color: white;

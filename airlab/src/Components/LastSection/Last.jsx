@@ -87,8 +87,8 @@ const Last = () => {
               easy. Just click “Edit Text” or double click me to add your own
               content and make changes to the font.
             </span>
+            <button className="secondHalf_btn">Get Started</button>
           </div>
-          <button className="secondHalf_btn">Get Started</button>
         </div>
       </div>
     </div>
